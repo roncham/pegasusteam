@@ -1,34 +1,31 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter New age', // <title>
-  manifestName: 'newage',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'PegasusTeam', // <title>
+  heading: 'PegasusTeam | Custom Web Development',
+  siteLogo: 'src/assets/images/PTlogo-trans.png',
+  manifestName: 'PegasusTeam',
+  manifestShortName: 'Pegasusteam', // max 12 characters
   manifestStartUrl: '/',
-  manifestBackgroundColor: '#663399',
-  manifestThemeColor: '#663399',
+  manifestBackgroundColor: '#1b9cae',
+  manifestThemeColor: '#1b9cae',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-newage/`, // This path is subpath of your hosting https://domain/portfolio
+  siteUrl: `https://pegasusteam.com`,
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
-    },
-    {
-      icon: 'fa-linkedin-in',
-      name: 'Linkedin',
-      url: 'https://linkedin.com/in/theanubhav/',
+      url: 'https://github.com/roncham',
     },
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: 'https://twitter.com/pegasusteam',
     },
     {
       icon: 'fa-facebook-f',
       name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://facebook.com/pegasusteam',
     },
   ],
 };

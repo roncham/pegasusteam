@@ -21,5 +21,48 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
+    // for images
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+    // seo
+    'gatsby-plugin-robots-txt',
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.pegasusteam.com`,
+      },
+    },
+    // markdown and filesystem
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+          plugins: [
+            'gatsby-remark-prismjs',
+            'gatsby-remark-relative-images',
+            {
+              resolve: 'gatsby-remark-images',
+              options: {
+                maxWidth: 750,
+                linkImagesToOriginal: false,
+              },
+            },
+          ]
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/assets/images`,
+      },
+    },
+    { 
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `posts`,
+        path: `${__dirname}/src/posts/`,
+      },
+    },
   ],
 };

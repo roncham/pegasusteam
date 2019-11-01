@@ -1,23 +1,24 @@
 // Styling for the download section
 section.contact {
     text-align: center;
+    
     h2 {
         margin-top: 0;
         margin-bottom: 25px;
         i {
-            color: $brand-google-plus;
+            color: $brand-github;
         }
     }
     ul.list-social {
         margin-bottom: 0;
         li {
             a {
-                font-size: 40px;
+                font-size: 20px;
                 line-height: 80px;
                 display: block;
                 width: 80px;
                 height: 80px;
-                color: white;
+                color: #212529;
                 border-radius: 100%;
             }
             &.social-twitter {
@@ -36,14 +37,23 @@ section.contact {
                     }
                 }
             }
-            &.social-google-plus {
+            &.social-github {
                 a {
-                    background-color: $brand-google-plus;
+                    background-color: $brand-github;
                     &:hover {
-                        background-color: darken($brand-google-plus, 5%);
+                        background-color: darken($brand-github, 5%);
                     }
                 }
             }
+        }
+    }
+    .dark {
+        background-color: #2a2b2d;
+        color: #fff;
+        transition: all 0.6s ease;
+
+        ul.list-social li.list-inline-item a {
+            color: #fff !important;
         }
     }
 }

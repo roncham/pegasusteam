@@ -1,0 +1,35 @@
+section.blog-content {
+  min-height: 100vh;
+  padding: 3rem 0;
+
+  a {
+    color: red;
+    
+    &:hover,
+    &:focus {
+      color: ($theme-primary);
+    }
+  }
+  blockquote {
+    color: rgba(0, 0, 0, 0.7);
+    border: 2px solid $tag;
+    background: lighten($brand-twitter, 38%);
+    border-radius: 6px;
+    font-weight: 500;
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+}
+.filename {
+  background: #111;
+  padding: .5rem 1rem .75rem;
+  font-size: .9rem;
+  font-style: italic;
+  color:#fff;
+  font-weight: 700;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  margin-bottom: -.5rem;
+}

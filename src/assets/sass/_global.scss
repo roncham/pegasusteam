@@ -20,7 +20,7 @@ a {
 
 hr {
     max-width: 100px;
-    margin: 25px auto 0;
+    margin: 25px auto;
     border-width: 1px;
     border-color: fade-out($gray-darker, .9);
 }
@@ -49,4 +49,10 @@ section {
     h2 {
         font-size: 50px;
     }
+}
+.hidden {
+    display:none;
+}
+.bump {
+    margin: 25px auto 0;
 }

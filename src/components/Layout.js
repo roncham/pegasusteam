@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
+import ThemeContext from '../context/ThemeContext';
 
-import '../assets/sass/new-age.scss';
+import '../assets/sass/pteam.scss';
 
 class Layout extends Component {
   render() {
@@ -20,18 +21,25 @@ class Layout extends Component {
           }
         `}
         render={data => (
-          <>
-            <Helmet
-              title={data.site.siteMetadata.title}
-              meta={[
-                { name: 'description', content: 'Casual' },
-                { name: 'keywords', content: 'site, web' },
-              ]}
-            >
-              <html lang="en" />
-            </Helmet>
-            <div className={'page-top'}>{children}</div>
-          </>
+          <ThemeContext.Consumer>
+            {theme => (
+              <div className={theme.dark ? 'dark' : 'light'}>
+              
+              <>
+                <Helmet
+                  title={data.site.siteMetadata.title}
+                  meta={[
+                    { name: 'description', content: 'We build websites using the latest technologies like GatsbyJS for building static JAMstack websites and WordPress websites.' },
+                    { name: 'keywords', content: 'gatsby, gatsbyjs, jamstack websites, wordpress websites' },
+                  ]}
+                >
+                  <html lang="en" />
+                </Helmet>
+                <div className={'page-top'}>{children}</div>
+              </>
+              </div>
+            )}
+          </ThemeContext.Consumer>
         )}
       />
     );

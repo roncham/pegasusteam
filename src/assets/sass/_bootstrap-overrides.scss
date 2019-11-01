@@ -22,10 +22,19 @@
     &:focus,
     &:active,
     &.active {
-        color: white;
-        border-color: $theme-primary;
-        background-color: $theme-primary;
+        color: #000;
+        border-color: $theme-tertiary;
+        background-color: $theme-tertiary;
     }
+}
+
+.btn-primary {
+    background-color: #1b9cae;
+}
+.btn-primary:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(253, 204, 82);
+    border-color: rgb(253, 204, 82);
 }
 
 .btn {
