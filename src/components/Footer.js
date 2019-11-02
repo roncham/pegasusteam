@@ -8,22 +8,22 @@ export default function Footer() {
         
         <ul className="list-inline">
           <li className="list-inline-item">
-            <Link to="/">Home</Link>
+            <Link to="/" aria-label="Go to homepage">Home</Link>
           </li>
           <li className="list-inline-item">
-            <Link to="/about">About</Link>
+            <Link to="/about" aria-label="Go to about page">About</Link>
           </li>
           <li className="list-inline-item">
-            <Link to="/#contact">Contact</Link>
+            <Link to="/#contact" aria-label="Go to contact form">Contact</Link>
           </li>
           <li className="list-inline-item">
-            <Link to="/privacy">Privacy</Link>
+            <Link to="/privacy" aria-label="Go to privacy page">Privacy</Link>
           </li>
           <li className="list-inline-item">
-            <Link to="/blog">Blog</Link>
+            <Link to="/blog" aria-label="Go to blog page">Blog</Link>
           </li>
         </ul>
-        <p>&copy; <Link to="/">PegasusTeam</Link> {new Date().getFullYear()}. All Rights Reserved.</p>
+        <p>&copy; <Link to="/" aria-label="Go to homepage">PegasusTeam</Link> {new Date().getFullYear()}. All Rights Reserved.</p>
         <div>
           
         </div>

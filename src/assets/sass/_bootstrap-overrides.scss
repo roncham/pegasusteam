@@ -8,6 +8,9 @@
 .text-primary {
     color: $theme-primary;
 }
+.text-muted {
+    color: #555 !important;
+}
 
 .no-gutter > [class*='col-'] {
     padding-right: 0;
@@ -29,7 +32,7 @@
 }
 
 .btn-primary {
-    background-color: #1b9cae;
+    background-color: #147785;
 }
 .btn-primary:hover {
     color: rgb(0, 0, 0);

@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-//import config from '../../config';
-//import Scroll from './Scroll';
 import ThemeContext from "../context/ThemeContext"
 import { Link } from "gatsby";
 import logo from '../assets/images/PTlogo-trans.png';
@@ -69,32 +67,32 @@ export default class Header extends Component {
           >
             <ul className="navbar-nav ml-auto text-right">
             <li className="nav-item">                
-                  <Link className="nav-link" to="/">
+                  <Link className="nav-link" to="/" aria-label="Go to homepage">
                     Home
                   </Link>                
               </li>
               <li className="nav-item">                
-                  <Link className="nav-link" to="/jamstack-websites">
+                  <Link className="nav-link" to="/jamstack-websites" aria-label="Go to JamStack websites">
                   JAMStack Websites
                   </Link>                
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/wordpress-websites">
+                <Link className="nav-link" to="/wordpress-websites" aria-label="Go to WordPress websites">
                     WordPress Websites
                   </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="#contact">
+                <Link className="nav-link" to="#contact" aria-label="Go to contact form">
                     Contact
                   </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/about">
+                <Link className="nav-link" to="/about" aria-label="Go to about page">
                   About
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/blog">
+                <Link className="nav-link" to="/blog" aria-label="Go to blog page">
                   Blog
                 </Link>
               </li>

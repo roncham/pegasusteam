@@ -40,7 +40,7 @@ export default () => (
                   <h1 classname="bump">PegasusTeam Blog</h1>
                   {data.allMarkdownRemark.edges.map(({ node }) => (
                     <div className="post card" key={node.id}>
-                      <Link to={node.frontmatter.slug}>
+                      <Link to={node.frontmatter.slug} aria-label="Go to article">
                         <h2>{node.frontmatter.title}{" "}</h2>
                         <p className="post-date">{node.frontmatter.date}</p>
                         <p className="text-muted">

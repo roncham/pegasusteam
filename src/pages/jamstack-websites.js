@@ -61,7 +61,7 @@ const JamstackPage = () => {
               </div>
             </div>
           </div>
-          <p><Link to="/#contact">Let's Get Started >></Link></p>
+          <p><Link to="/#contact" aria-label="Go to contact form">Let's Get Started >></Link></p>
         </div>
       </section>
       <Footer />

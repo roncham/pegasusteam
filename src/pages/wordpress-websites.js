@@ -63,7 +63,7 @@ const WpPage = () => {
                 We pride ourselves on providing quick accurate support. Our goal is to resolve any issues that may arise in the fastest time possible.
                 </p>
               </div>
-              <p><Link to="/#contact">Let's Get Started >></Link></p>
+              <p><Link to="/#contact" aria-label="Go to contact form">Let's Get Started >></Link></p>
             </div>
           </div>
         </div>

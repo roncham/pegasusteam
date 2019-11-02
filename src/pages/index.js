@@ -106,7 +106,7 @@ const IndexPage = () => (
                     <p className="text-muted">
                     Your customers will enjoy the speed of the site while you enjoy happy customers and more traffic.
                     </p>
-                    <p><Link to="jamstack-websites">Learn More >></Link></p>
+                    <p><Link to="jamstack-websites" aria-label="Read more about JamStack websites">Learn More >></Link></p>
                   </div>
                 </div>
                 <div className="col-lg-6">
@@ -119,7 +119,7 @@ const IndexPage = () => (
                     <p className="text-muted">
                     We will make sure your website is secure with the best security plugins.
                     </p>
-                    <p><Link to="wordpress-websites">Learn More >></Link></p>
+                    <p><Link to="wordpress-websites" aria-label="Read more about WordPress websites">Learn More >></Link></p>
                   </div>
                 </div>
               </div>
@@ -136,7 +136,7 @@ const IndexPage = () => (
                     </p>
                     <p>
                       <Scroll type="id" element="contact">
-                          <a href="#contact">
+                          <a href="#contact" aria-label="Get started">
                             Get Started!
                           </a>
                         </Scroll>
@@ -154,7 +154,7 @@ const IndexPage = () => (
                     </p>
                     <p>
                       <Scroll type="id" element="contact">
-                          <a href="#contact">
+                          <a href="#contact" aria-label="Get started">
                             Get Started!
                           </a>
                         </Scroll>
