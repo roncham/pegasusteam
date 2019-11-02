@@ -134,6 +134,13 @@ const IndexPage = () => (
                     <p className="text-muted">
                     Whether you choose a JAMstack site or WordPress site we can make it into a PWA.
                     </p>
+                    <p>
+                      <Scroll type="id" element="contact">
+                          <a href="#contact">
+                            Get Started!
+                          </a>
+                        </Scroll>
+                    </p>
                   </div>
                 </div>
                 <div className="col-lg-6">
@@ -144,6 +151,13 @@ const IndexPage = () => (
                       All websites require some maintenance. Whether it's making small tweaks, updating plugins or the software that powers your site.</p>
                     <p className="text-muted">
                       We'll monitor your site and make sure everything is working properly and is updated in a timely matter.
+                    </p>
+                    <p>
+                      <Scroll type="id" element="contact">
+                          <a href="#contact">
+                            Get Started!
+                          </a>
+                        </Scroll>
                     </p>
                   </div>
                 </div>
