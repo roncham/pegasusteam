@@ -44,7 +44,7 @@ const PrivacyPage = () => {
                   <p>CHANGE NOTICE: As with any of our administrative and legal notice pages, the contents of this page can and will change over time.  Accordingly, this page could read differently as of your very next visit.  These changes are necessitated, and carried out by PegasusTeam, in order to protect you and our PegasusTeam.com website.  If this page is important to you, you should check back frequently as no other notice of changed content will be provided either before or after the change takes effect.</p>
                   <p>COPYRIGHT WARNING: The legal notices and administrative pages on this website, including this one, have been diligently drafted by an attorney.  We at PegasusTeam have paid to license the use of these legal notices and administrative pages on PegasusTeam.com for your protection and ours.  This material may not be used in any way for any reason and unauthorized use is policed via Copyscape to detect violators.</p>
                   <p>QUESTIONS/COMMENTS/CONCERNS: If you have any questions about the contents of this page, or simply wish to reach us for any other reason, you may do so by using our Contact information.</p>
-                  <p><a href="/#contact">http://www.pegasusteam.com/contact/</a></p>  
+                  <p><a href="/#contact">http://www.pegasusteam.com/contact</a></p>  
                 </div>
               </div>
             </section>
