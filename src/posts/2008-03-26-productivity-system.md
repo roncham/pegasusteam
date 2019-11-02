@@ -6,9 +6,9 @@ slug: productivity-system
 
 I never used a timer myself before, but I actually stick to this schedule pretty good unless I am heavy into redesigning a website or doing some coding. I tried the timer the last few days and it works out much better.
 
-Leo over at <a href="http://zenhabits.net/2007/02/my-fav-procrastination-hack-30-10/" target="_blank">Zenhabits</a> posted a nice article on combating procrastination and getting things done.
+Leo over at <a href="http://zenhabits.net/2007/02/my-fav-procrastination-hack-30-10/" target="_blank" rel= "nofollow  noopener noreferrer">Zenhabits</a> posted a nice article on combating procrastination and getting things done.
 
-<strong>Here is my Productivity system to help you remain focused. </strong><br />
+**<strong>**Here is my Productivity system to help you remain focused.**<br />
 
 
 *Every day I have certain tasks that need to be done. To remain focused and productive I concentrate on these tasks for 40 minutes at a time. During this time I ignore my email beeps and just work on the task at hand. I then take a break for 20 minutes. I smoke, so that takes about 5-7 minutes then I use the restroom, fill my water glass, get another Dew or whatever, just anything to get up and move around.
