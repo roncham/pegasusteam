@@ -191,11 +191,11 @@ const IndexPage = () => (
         <h2>
           Let's Get Started!
         </h2>
-        <div class="row justify-content-lg-center">
+        <div className="row justify-content-lg-center">
           <div className="col-lg-6">
             <form name="contact" className="form" method="POST" encType="application/x-www-form-urlencoded" netlify-honeypot="bot-field" data-netlify="true">
 
-              <p class="hidden">
+              <p className="hidden">
                 <label>Don’t fill this out if you're human:</label> 
                 <input name="bot-field" name="form-name" value="contact" />
               </p>

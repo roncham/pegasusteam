@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from "gatsby"
-
+import { Link } from "gatsby";
+//import { Helmet } from 'react-helmet';
 import Layout from '../components/Layout';
 import Header from '../components/Header';
 import Footer from '../components/Footer';

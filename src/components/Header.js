@@ -91,11 +91,6 @@ export default class Header extends Component {
                   About
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/blog" aria-label="Go to blog page">
-                  Blog
-                </Link>
-              </li>
               <button className="dark-switcher" onClick={theme.toggleDark} aria-label="Toggle Dark Mode." title="Toggle Dark Mode">
                 {theme.dark ? <span>Light ☀</span> : <span>Dark ☾</span>}
               </button>

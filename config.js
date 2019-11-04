@@ -5,11 +5,11 @@ module.exports = {
   manifestName: 'PegasusTeam',
   manifestShortName: 'Pegasusteam', // max 12 characters
   manifestStartUrl: '/',
-  manifestBackgroundColor: '#1b9cae',
-  manifestThemeColor: '#1b9cae',
+  manifestBackgroundColor: '#fff',
+  manifestThemeColor: '#147785',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  siteUrl: `https://pegasusteam.com`,
+  siteUrl: 'https://pegasusteam.com',
   // social
   socialLinks: [
     {

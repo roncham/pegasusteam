@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from "gatsby"
-//import Img from 'gatsby-image';
-//import { graphql } from 'gatsby';
+//import { Helmet } from 'react-helmet';
 
 import Layout from '../components/Layout';
 import Header from '../components/Header';
@@ -18,7 +17,7 @@ const JamstackPage = () => {
               <div className="section-heading text-center">
                 <h2>JAMstack Websites</h2>
                 <p className="text-muted">
-                  Static websites aren't a solution for every business owner. We'll work with you to decide if a JAMStack site is right for you.
+                  Static websites aren't a solution for every business owner. We'll work with you to decide if a JAMStack website is right for you.
                 </p>
               </div>
             </div>
@@ -31,7 +30,7 @@ const JamstackPage = () => {
               <div className="feature-item">
                 <h2><i class="fas fa-tachometer-alt"></i> JAMstack Websites Are Faster</h2>
                 <p className="text-muted">
-                  Using a static site generator like Gatsby can increase your speed by up to 10%. This increase in speed equals far better performance. Better performance leads to better ranking in Google, where most sites get the majority of their traffic from. It also means better SEO (Search Engine Optimization).
+                  Using a static site generator like Gatsby can increase your speed 3% up to 10%. This increase in speed equals far better performance. Better performance leads to better ranking in Google, where most sites get the majority of their traffic from. It also means better SEO (Search Engine Optimization).
                 </p>
               </div>
             </div>
