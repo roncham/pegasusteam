@@ -28,8 +28,8 @@ const JamstackPage = () => {
         </div>
 
         <div class="container">
-          <div className="card-deck row">
-            <div className="card col-md">
+          <div className="row">
+            <div className="card col-lg">
               <div className="card-body feature-item">
                 <h2><i class="fas fa-tachometer-alt"></i> JAMstack Websites Are Faster</h2>
                 <p className="text-muted">
@@ -37,7 +37,7 @@ const JamstackPage = () => {
                 </p>
               </div>
             </div>
-            <div className="card col-md">
+            <div className="card col-lg">
               <div className="card-body feature-item">
                 <h2><i class="fas fa-chart-line"></i> JAMStack Website Performance</h2>
                 <p className="text-muted">
@@ -48,7 +48,7 @@ const JamstackPage = () => {
                 </p>
               </div>
             </div>
-            <div className="card col-md">
+            <div className="card col-lg">
               <div className="card-body feature-item">
                 <h2><i class="fab fa-wordpress"></i> Headless CMS</h2>
                 <p className="text-muted">
