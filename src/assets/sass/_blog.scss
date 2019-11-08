@@ -33,7 +33,9 @@ section.blog-page {
   }
   .post:hover {
     background-color: #f4f4f4;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    -webkit-transform: translateY(-.25rem);
+    transform: translateY(-.25rem);
+    box-shadow: 0 4px 8px rgba(46,41,51,.08), 0 8px 16px rgba(71,63,79,.16);
   }
 }
 .dark {
@@ -46,6 +48,8 @@ section.blog-page {
   }
   .post:hover {
     background-color: #333 !important;
-    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.1) !important;
+    -webkit-transform: translateY(-.25rem);
+    transform: translateY(-.25rem);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1), 0 8px 16px rgba(255, 255, 255, 0.1) !important;
   }
 }
