@@ -215,7 +215,7 @@ const IndexPage = () => (
               <textarea name="message" id="message" rows="5" aria-label="message"
               placeholder="Your Message..."
               className="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" /><br />
-              <button type="submit" className="btn btn-primary mx-auto">Request Free Quote Now!</button>
+              <button type="submit" className="btn btn-primary mx-auto">Let's Chat!</button>
             </form>
             <p>We would love to work with you.</p>
             <p>We pride ourselves on providing quick accurate support.</p>
