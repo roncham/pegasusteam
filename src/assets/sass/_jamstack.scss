@@ -5,4 +5,13 @@ section.jamstack {
   .card {
     margin: .25rem;
   }
+  .feature-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    //text-align: center;
+    h2, h3 {
+        font-size: 30px;
+    }
+    
+}
 }

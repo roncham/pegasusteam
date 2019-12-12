@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "gatsby";
-//import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet';
+
 import Layout from '../components/Layout';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -8,14 +9,20 @@ import Footer from '../components/Footer';
 const WpPage = () => {
     return (
       <Layout>
+        <>
+          <Helmet>
+            <title>WordPress Websites | PegasusTeam</title>
+            <link rel="canonical" href="https://pegasusteam.com/wordpress-websites" />
+          </Helmet>
+        </>
       <Header />
       <section className="wordpress">
         <div className="container">
           <div className="row">
-            <div className="col-md-8 mx-auto">
+            <div className="column">
               <div className="container">
-                <div className="section-heading text-center">
-                  <h2>WordPress Websites</h2>
+                <div className="section-heading has-text-centered">
+                  <h2>WordPress Websites & WordPress Services</h2>
                   <p className="text-muted">
                   WordPress powers over a third of the top 100 sites on the web making it a great choice for your website.
                   </p>
@@ -29,7 +36,7 @@ const WpPage = () => {
         
         <div class="container">
           <div className="row">
-            <div className="col-md-8 mx-auto">
+            <div className="column">
               <div className="feature-item">
                 <h2><i class="fab fa-wordpress"></i> Professional WordPress Installation & Setup</h2>
                 <p className="text-muted">
@@ -63,7 +70,7 @@ const WpPage = () => {
                 We pride ourselves on providing quick accurate support. Our goal is to resolve any issues that may arise in the fastest time possible.
                 </p>
               </div>
-              <p><Link to="/#contact" aria-label="Go to contact form">Let's Get Started >></Link></p>
+              <p><Link className="btn button is-info btn-xl is-size-6" to="/contact" aria-label="Go to contact form">Let's Get Started >></Link></p>
             </div>
           </div>
         </div>

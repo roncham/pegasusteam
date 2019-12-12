@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ThemeContext from "../context/ThemeContext"
-import { Link } from "gatsby";
 import logo from '../assets/images/PTlogo-trans.png';
 
 export default class Header extends Component {
@@ -8,12 +7,17 @@ export default class Header extends Component {
     super(props);
     this.state = {
       openMenu: false,
-      visibilityClass: '',
+      //visibilityClass: '',
     };
   }
+  
   toggleMenu = value => {
     this.setState({ openMenu: value });
   };
+  
+  //componentDidMount() {
+  //  myExtScript = require('../components/navMenu.js');
+  //}
 
   handleScroll = () => {
     const { visibilityClass } = this.state;
@@ -39,65 +43,64 @@ export default class Header extends Component {
     return (
       <ThemeContext.Consumer>
       {theme => (
-      <nav
-        className={`navbar navbar-expand-lg navbar-light fixed-top ${visibilityClass}`}
-        id="mainNav"
-      >
-        <div className="container">
-          <a className="navbar-brand" href="/" id="#page-top">
-          <img src={logo} className="img-fluid" alt="PegasusTeam" /> 
-          </a>
-          <button
-            onClick={_ => this.toggleMenu(!openMenu)}
-            className={`navbar-toggler navbar-toggler-right ${
-              openMenu ? '' : 'collapsed'
-            }`}
-            type="button"
-            aria-controls="navbarResponsive"
-            aria-expanded={openMenu}
-            aria-label="Toggle navigation"
-          >
-            Menu&nbsp;
-            <i className="fas fa-bars"></i>
-          </button>
-
-          <div
-            className={`collapse navbar-collapse ${openMenu ? 'show' : ''}`}
-            id="navbarResponsive"
-          >
-            <ul className="navbar-nav ml-auto text-right">
-            <li className="nav-item">                
-                  <Link className="nav-link" to="/" aria-label="Go to homepage">
-                    Home
-                  </Link>                
-              </li>
-              <li className="nav-item">                
-                  <Link className="nav-link" to="/jamstack-websites" aria-label="Go to JamStack websites">
-                  JAMStack Websites
-                  </Link>                
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/wordpress-websites" aria-label="Go to WordPress websites">
-                    WordPress Websites
-                  </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="#contact" aria-label="Go to contact form">
-                    Contact
-                  </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/about" aria-label="Go to about page">
-                  About
-                </Link>
-              </li>
-              <button className="dark-switcher" onClick={theme.toggleDark} aria-label="Toggle Dark Mode." title="Toggle Dark Mode">
-                {theme.dark ? <span>Light ☀</span> : <span>Dark ☾</span>}
-              </button>
-            </ul>
+        <nav className="navbar" role="navigation" aria-label="main navigation">
+          <div className="navbar-brand">
+            <a className="navbar-item" href="/">
+              <img src={logo} className="img-fluid" alt="PegasusTeam" /> 
+            </a>
+      
+            <label role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" htmlFor="nav-toggle-state">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </label>
           </div>
-        </div>
-      </nav>
+          <input type="checkbox" id="nav-toggle-state" />
+      
+          <div id="navMenu" className="navbar-menu">
+            <div className="navbar-start">
+              <a className="navbar-item" href="/" aria-label="Go to homepage">
+                Home
+              </a>
+        
+              <div className="navbar-item has-dropdown is-hoverable">
+                <a className="navbar-link">
+                  Web Design
+                </a>
+        
+                <div className="navbar-dropdown">
+                  <a className="navbar-item" href="/jamstack-websites" aria-label="Go to jamstack websites">
+                    JamStack Websites
+                  </a>
+                  <a className="navbar-item" href="/wordpress-websites" aria-label="Go to wordpress websites">
+                    WordPress Websites
+                  </a>
+                </div>
+                </div>
+                <a className="navbar-item" href="/ongoing-success" aria-label="Go to success plan">
+                  Ongoing Success
+                </a>
+                <a className="navbar-item" href="/work" aria-label="Go to our work">
+                  Work
+                </a>
+                <a className="navbar-item" href="/contact" aria-label="Go to contact us">
+                  Contact
+                </a>
+                <a className="navbar-item" href="/about" aria-label="Go to about page">
+                  About
+                </a>
+              </div>
+            
+      
+            <div className="navbar-end">
+              <div className="navbar-item">
+              <a className="button dark-switcher" onClick={theme.toggleDark} aria-label="Toggle Dark Mode." title="Toggle Dark Mode">
+                {theme.dark ? <span>☀</span> : <span>☾</span>}
+              </a>
+              </div>
+            </div>
+          </div>
+        </nav>
       )}
       </ThemeContext.Consumer>
     );

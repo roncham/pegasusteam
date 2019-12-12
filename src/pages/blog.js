@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link, StaticQuery, graphql } from 'gatsby';
+import { Helmet } from 'react-helmet';
+
 import Layout from '../components/Layout';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -29,11 +31,17 @@ export default () => (
 
     render={data => (
       <Layout>
+        <>
+          <Helmet>
+            <title>Blog | PegasusTeam</title>
+            <link rel="canonical" href="https://pegasusteam.com/blog" />
+          </Helmet>
+        </>
       <Header />
 
       <div className="container">
         <div className="row">
-          <div className="col-md-8 mx-auto">
+          <div className="column is-8 is-offset-2">
             <section className="blog-page">
               <div className="blog-list-container">
                 <div className="container">

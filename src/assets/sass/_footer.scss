@@ -10,6 +10,9 @@ footer {
     }
     ul {
         margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         li {
             a {
                 font-size: 12px;
@@ -22,6 +25,9 @@ footer {
                 }
             }
         }
+    }
+    .list-inline-item:not(:last-child) {
+        margin-right: .5rem;
     }
 }
 footer a {

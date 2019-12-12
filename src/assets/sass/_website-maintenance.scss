@@ -1,0 +1,43 @@
+// Styling for the call to action section
+section.maintenance {
+    h1 {
+      font-size: 40px;
+      //max-width: 450px;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 30px;
+      //max-width: 450px;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+    h3 {
+      font-size: 20px;
+      //max-width: 450px;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+    .subtitle {
+      color: #fff !important;
+    }
+    .btn:hover, .btn:focus, .btn:active, .btn.active {
+      color: #000;
+      border-color: #fdcc52;
+      background-color: #fdcc52;
+  }
+    .content blockquote:not(:last-child), .content dl:not(:last-child), .content ol:not(:last-child), .content p:not(:last-child), .content pre:not(:last-child), .content table:not(:last-child), .content ul:not(:last-child) {
+      margin-bottom: .25em;
+  }
+    @media (min-width: 768px) {
+      h1 {
+        font-size: 40px;
+      }
+      h2 {
+        font-size: 30px;
+      }
+      h3 {
+        font-size: 20px;
+      }
+    }
+  }

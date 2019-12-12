@@ -6,7 +6,7 @@ export default function Footer() {
     <footer>
       <div className="container">
         
-        <ul className="list-inline">
+        <ul className="footer-nav list-inline">
           <li className="list-inline-item">
             <Link to="/" aria-label="Go to homepage">Home</Link>
           </li>
@@ -14,7 +14,7 @@ export default function Footer() {
             <Link to="/about" aria-label="Go to about page">About</Link>
           </li>
           <li className="list-inline-item">
-            <Link to="/#contact" aria-label="Go to contact form">Contact</Link>
+            <Link to="/contact" aria-label="Go to contact form">Contact</Link>
           </li>
           <li className="list-inline-item">
             <Link to="/privacy" aria-label="Go to privacy page">Privacy</Link>

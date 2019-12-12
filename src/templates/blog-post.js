@@ -1,4 +1,5 @@
 import React from "react";
+//import { Helmet } from 'react-helmet';
 import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
@@ -13,7 +14,7 @@ export default ({ data }) => {
       <Header />
       <section className="container">
         <div className="row">
-          <div className="col-md-8 mx-auto">
+          <div className="column is-8 is-offset-2">
             <section className="blog-content">
             <h1>{post.frontmatter.title}</h1>
             <p>{post.frontmatter.date}</p>

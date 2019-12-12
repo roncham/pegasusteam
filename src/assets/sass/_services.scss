@@ -1,6 +1,10 @@
 .dark {
     section.services {
        background-color:#212529;
+       color: #ccc;
+    }
+    p.title {
+        color: #fff;
     }
   }
 section.services {
@@ -26,8 +30,8 @@ section.services {
       }
   }
   .feature-item {
-      padding-top: 50px;
-      padding-bottom: 50px;
+      padding-top: 20px;
+      //padding-bottom: 10px;
       //text-align: center;
       h2, h3 {
           font-size: 30px;

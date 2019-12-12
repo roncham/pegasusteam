@@ -1,23 +1,36 @@
 // Styling for the call to action section
-section.cta {
+section.cta-maintenance {
   position: relative;
-  padding: 250px 0;
-  background-image: url('../images/bg-cta.jpg');
+  padding: 200px 0;
+  background-image: url('../images/pexels-monitors-light.jpg');
   background-position: center;
   @include background-cover;
-  .cta-content {
+  .maintenance-content {
     position: relative;
     z-index: 1;
-    h2 {
+    h1 {
       font-size: 40px;
+      font-weight: 300;
+      margin-top: 0;
+      margin-bottom: 20px;
+      color: white;
+    }
+    h3 {
+      font-size: 20px;
       //max-width: 450px;
       margin-top: 0;
-      margin-bottom: 25px;
+      margin-bottom: 15px;
       color: white;
+    }
+    .subtitle {
+      color: #fff !important;
     }
     @media (min-width: 768px) {
       h2 {
         font-size: 50px;
+      }
+      h3 {
+        font-size: 20px;
       }
     }
   }

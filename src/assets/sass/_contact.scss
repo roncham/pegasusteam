@@ -9,8 +9,21 @@ section.contact {
             color: $brand-github;
         }
     }
+    .btn {
+        border-color: #fff;
+    }
+    .btn:hover, .btn:focus, .btn:active, .btn.active {
+        color: #000;
+        border-color: #fdcc52;
+        background-color: #fdcc52;
+        border-color: #000;
+    }
+
     ul.list-social {
         margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         li {
             a {
                 font-size: 20px;
