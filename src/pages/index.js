@@ -16,6 +16,7 @@ const IndexPage = () => (
       <Helmet>
         <title>PegasusTeam</title>
         <link rel="canonical" href="https://pegasusteam.com/" />
+        <meta name="google-site-verification" content="t5x9UI-JDMZO1fbGQZGAOhWjaiYC_oVMob8lJzNL3Ps" />
         <meta name="description" content="We build websites using the latest technologies like GatsbyJS for building static JAMstack websites and WordPress websites." />
         <meta name="keywords" content= "gatsby, gatsbyjs, jamstack websites, wordpress websites, web design, pegasusteam" />
         <meta property="og:locale" content="en_US" />
