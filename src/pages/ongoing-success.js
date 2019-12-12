@@ -136,7 +136,7 @@ const SuccessPage = () => {
                 <div className="card-content">
                   <div className="media">
                     <div className="media-left">
-                      <h2><i className="fas fa-comment-dollar is-4"></i></h2>
+                      <h2><i className="fas fa-server is-4"></i></h2>
                     </div>
                     <div className="media-content">
                       <p className="title is-4">Software Updates</p>
