@@ -38,6 +38,7 @@ module.exports = {
         cookieDomain: "pegasusteam.com",
         //cookieExpires: 0,
       },
+    },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
     // for images
