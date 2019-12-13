@@ -1,6 +1,10 @@
 section.blog-page {
   h1 {
     margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
   }
   
   .post-date {
@@ -26,9 +30,6 @@ section.blog-page {
         color: lighten(#212529, 10%);
         text-decoration: none;
       }
-    }
-    h2 {
-      font-size: 30px;
     }
   }
   .post:hover {

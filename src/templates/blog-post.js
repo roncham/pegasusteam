@@ -16,7 +16,7 @@ export default ({ data }) => {
         <div className="row">
           <div className="column is-8 is-offset-2">
             <section className="blog-content">
-            <h1>{post.frontmatter.title}</h1>
+            <h1 className="is-size-2">{post.frontmatter.title}</h1>
             <p>{post.frontmatter.date}</p>
               <div dangerouslySetInnerHTML={{ __html: post.html }} />
             </section>

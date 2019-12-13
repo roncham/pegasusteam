@@ -62,7 +62,15 @@ export default class Header extends Component {
               <a className="navbar-item" href="/" aria-label="Go to homepage">
                 Home
               </a>
-        
+              <a className="navbar-item" href="/about" aria-label="Go to about page">
+                  About
+                </a>
+                <a className="navbar-item" href="/contact" aria-label="Go to contact us">
+                  Contact
+                </a>
+                <a className="navbar-item" href="/ongoing-success" aria-label="Go to success plan">
+                  Ongoing Success
+                </a>
               <div className="navbar-item has-dropdown is-hoverable">
                 <a className="navbar-link">
                   Web Design
@@ -77,17 +85,8 @@ export default class Header extends Component {
                   </a>
                 </div>
                 </div>
-                <a className="navbar-item" href="/ongoing-success" aria-label="Go to success plan">
-                  Ongoing Success
-                </a>
                 <a className="navbar-item" href="/work" aria-label="Go to our work">
                   Work
-                </a>
-                <a className="navbar-item" href="/contact" aria-label="Go to contact us">
-                  Contact
-                </a>
-                <a className="navbar-item" href="/about" aria-label="Go to about page">
-                  About
                 </a>
               </div>
             

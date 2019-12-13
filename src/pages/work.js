@@ -18,13 +18,13 @@ const WorkPage = (props) => {
           </Helmet>
         </>
       <Header />
-      <section className="jamstack">
+      <section className="work">
         <div className="container">
           <div className="row">
             <div className="column">
               <div className="container">
                 <div className="section-heading has-text-centered">
-                  <h2>Our work</h2>
+                  <h1>Our work</h1>
                   <p className="text-muted">
                     Here is a selection of previous work we have done.
                   </p>

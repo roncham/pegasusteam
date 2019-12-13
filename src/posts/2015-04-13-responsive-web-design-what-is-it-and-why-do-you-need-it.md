@@ -24,4 +24,4 @@ If you’ve ever placed a Facebook Ad, you’ll notice that you can serve up you
 
 You’ve heard the old saying “You can please all of the people some of the time and some of the people all of the time but you can never please all of the people all of the time”? With responsive web design, this is simply no longer true.  By making your site responsive, you are in fact, making all of your visitors happy, all of the time whether they are on their mobile phone, tablet, laptop or desktop.  Isn’t that where you want to be?
 
-<a href="/#contact">Contact</a> PegasusTeam today to find out how your site performs on mobile. You have nothing to lose, but traffic.
+<a href="/contact">Contact</a> PegasusTeam today to find out how your site performs on mobile. You have nothing to lose, but traffic.

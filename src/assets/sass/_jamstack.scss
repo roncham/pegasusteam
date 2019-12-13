@@ -1,6 +1,10 @@
 section.jamstack {
+  h1 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
   h2 {
-    font-size: 30px;
+    font-size: 2rem;
   } 
   .card {
     margin: .25rem;
@@ -12,6 +16,5 @@ section.jamstack {
     h2, h3 {
         font-size: 30px;
     }
-    
-}
+  }
 }

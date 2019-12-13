@@ -5,22 +5,23 @@
 @import 'variables.scss';
 @import 'mixins.scss';
 @import 'global.scss';
-@import 'navbar.scss';
-@import 'masthead.scss';
-@import 'testimonials.scss';
-@import 'cta.scss';
-@import 'cta-maintenance.scss';
-@import 'website-maintenance.scss';
-@import 'contact.scss';
-@import 'footer.scss';
 @import 'bootstrap-overrides.scss';
-@import 'services.scss';
 @import 'about.scss';
 @import 'blog.scss';
 @import 'blog-posts.scss';
+@import 'contact.scss';
+@import 'cta.scss';
+@import 'cta-maintenance.scss';
+@import 'footer.scss';
 @import 'jamstack.scss';
+@import 'masthead.scss';
+@import 'navbar.scss';
+@import 'services.scss';
+@import 'testimonials.scss';
 @import 'wordpress.scss';
+@import 'work.scss';
 @import 'dark.scss';
+
 
 @import './fontawesome/css/all.min.css';
 @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700');

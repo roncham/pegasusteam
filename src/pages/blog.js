@@ -45,7 +45,7 @@ export default () => (
             <section className="blog-page">
               <div className="blog-list-container">
                 <div className="container">
-                  <h1 classname="bump">PegasusTeam Blog</h1>
+                  <h1 className="section-heading has-text-centered">PegasusTeam Blog</h1>
                   {data.allMarkdownRemark.edges.map(({ node }) => (
                     <div className="post card" key={node.id}>
                       <Link to={node.frontmatter.slug} aria-label="Go to article">
