@@ -164,13 +164,13 @@ fragment fluidImage on File {
 
 export const pageQuery = graphql`
   query {
-    imageOne: file(relativePath: { eq: "phone-screen-1.jpg" }) {
+    imageOne: file(relativePath: { eq: "marshcreek-devices.jpg" }) {
       ...fluidImage
     }
-    imageTwo: file(relativePath: { eq: "phone-screen-2.jpg" }) {
+    imageTwo: file(relativePath: { eq: "haleamano_devices.jpg" }) {
       ...fluidImage
     }
-    imageThree: file(relativePath: { eq: "phone-screen-3.jpg" }) {
+    imageThree: file(relativePath: { eq: "spartan_new.jpg" }) {
       ...fluidImage
     }
     imageFour: file(relativePath: { eq: "aalahandyman_screen.png" }) {

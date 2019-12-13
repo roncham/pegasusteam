@@ -50,7 +50,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://www.pegasusteam.com`,
+        siteUrl: `https://pegasusteam.com`,
       },
     },
     // markdown and filesystem

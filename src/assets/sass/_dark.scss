@@ -18,12 +18,20 @@
 
 .dark {
   background-color: #2a2b2d;
-  color: #fff;
+  color: #ccc;
   transition: all 0.6s ease;
 }
 
 .dark hr {
   border-color: #555;
+}
+
+.dark p, .card p, .content, i {
+  color: #ccc !important;
+}
+
+.dark h1, h2 {
+  color: #fff !important;
 }
 
 .light {
