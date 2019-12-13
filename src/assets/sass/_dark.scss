@@ -26,12 +26,12 @@
   border-color: #555;
 }
 
-.dark p, .card p, .content, i {
-  color: #ccc !important;
+.dark p, .dark .card p,  .dark .content, i {
+  color: #ccc;
 }
 
-.dark h1, h2 {
-  color: #fff !important;
+.dark h1, .dark h2 {
+  color: #fff;
 }
 
 .light {
