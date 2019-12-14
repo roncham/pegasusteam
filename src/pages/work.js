@@ -24,7 +24,7 @@ const WorkPage = (props) => {
             <div className="column">
               <div className="container">
                 <div className="section-heading has-text-centered">
-                  <h1>Our work</h1>
+                  <h2>Our work</h2>
                   <p className="text-muted">
                     Here is a selection of previous work we have done.
                   </p>
