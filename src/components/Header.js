@@ -39,7 +39,7 @@ export default class Header extends Component {
   }
 
   render() {
-    const { openMenu, visibilityClass } = this.state;
+    const {} = this.state;
     return (
       <ThemeContext.Consumer>
       {theme => (

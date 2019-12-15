@@ -64,8 +64,9 @@
 
 @mixin heading-font {
     font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
-    font-weight: 200;
+    font-weight: 500;
     letter-spacing: 1px;
+    color: #090909;
 }
 
 @mixin body-font {

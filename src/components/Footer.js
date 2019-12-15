@@ -28,25 +28,30 @@ export default function Footer() {
             <div className="bump">&nbsp;</div>
             <div className="has-text-left">
               <ul>
-                <li><a className="is-size-5" href="/" aria-label="Go to homepage">
+                <li><a className="alist is-size-5" href="/" aria-label="Go to homepage">
                   Home
                 </a></li>
-                <li><a className="is-size-5" href="/about" aria-label="Go to about page">
+                <li><a className="alist is-size-5" href="/about" aria-label="Go to about page">
                   About
                 </a></li>
-                <li><a className="is-size-5" href="/contact" aria-label="Go to contact us">
+                <li>
+                  <a className="alist is-size-5" href="/work" aria-label="Go to our work">
+                    Work
+                </a></li>
+                <li>
+                  <a className="alist is-size-5" href="/contact" aria-label="Go to contact us">
                   Contact
                 </a></li>
-                <li><a className="is-size-5" href="/ongoing-success" aria-label="Go to success plan">
+                <li><a className="alist is-size-5" href="/ongoing-success" aria-label="Go to success plan">
                   Ongoing Success
                 </a></li>
-                <li><a className="is-size-5" href="/work" aria-label="Go to our work">
+                <li><a className="alist is-size-5" href="/work" aria-label="Go to our work">
                   Work
                 </a></li>
-                <li><a className="is-size-5" href="/jamstack-websites" aria-label="Go to jamstack websites">
+                <li><a className="alist is-size-5" href="/jamstack-websites" aria-label="Go to jamstack websites">
                   JamStack Websites
                 </a></li>
-                <li><a className="is-size-5" href="/wordpress-websites" aria-label="Go to wordpress websites">
+                <li><a className="alist is-size-5" href="/wordpress-websites" aria-label="Go to wordpress websites">
                   WordPress Websites
                 </a></li>
               </ul>
