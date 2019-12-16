@@ -72,6 +72,9 @@ header.masthead {
   padding-right: 30px;
   box-shadow: 0 0 1em 0 rgba(10, 10, 10, 0.1);
 }
+.navbar-item, .navbar-link {
+  color: #1a1a1a;
+}
 #nav-toggle-state {
   display: none;
 }
