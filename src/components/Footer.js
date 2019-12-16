@@ -142,7 +142,7 @@ export default function Footer() {
         </div>
         <div>
         <Social />
-        <Link to="/" className="btn button" aria-label="Go to top">^ Top ^</Link>
+        <Link to="/top" className="btn button is-info" aria-label="Go to top">^ Top ^</Link>
         </div>
       </div>
     </footer>

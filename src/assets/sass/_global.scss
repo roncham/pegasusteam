@@ -69,16 +69,7 @@ p {
 .navbar-item img {
     max-height: 3rem !important;
   }
-  .button.is-info {
-    &:hover,
-      &:focus,
-      &:active,
-      &.active {
-          //color: #000;
-          //border-color: #000;
-          background-color: #0250bb;
-      }
-  }
+  
 
     // Modal show - hide
   #modal-toggle {
@@ -88,9 +79,21 @@ p {
     display: flex;
   }
 
-    // Bulma Override
+    // Bulma Overrides
     .button.is-info {
         background-color: #0060df;
         border-color: transparent;
         color: #fff;
+    }
+    .button.is-info {
+        &:hover,
+          &:focus,
+          &:active,
+          &.active {
+            background-color: #0250bb;
+          }
+    }
+    .card, .title {
+        color: 
+        #1a1a1a;
     }

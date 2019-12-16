@@ -7,17 +7,12 @@ export default class Header extends Component {
     super(props);
     this.state = {
       openMenu: false,
-      //visibilityClass: '',
     };
   }
   
   toggleMenu = value => {
     this.setState({ openMenu: value });
   };
-  
-  //componentDidMount() {
-  //  myExtScript = require('../components/navMenu.js');
-  //}
 
   handleScroll = () => {
     const { visibilityClass } = this.state;
@@ -43,7 +38,7 @@ export default class Header extends Component {
     return (
       <ThemeContext.Consumer>
       {theme => (
-        <nav className="navbar" role="navigation" aria-label="main navigation">
+        <nav id="top" className="navbar" role="navigation" aria-label="main navigation">
           <div className="navbar-brand">
             <a className="navbar-item" href="/">
               <img src={logo} className="img-fluid" alt="PegasusTeam" /> 
