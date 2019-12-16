@@ -46,7 +46,7 @@ const WorkPage = (props) => {
                   <div class="media">
                     <div class="media-content">
                       <p class="title is-4">Marsh Creek Inn</p>
-                      <p class="subtitle is-6">GatsbyJs / React - PWA</p>
+                      <p class="subtitle is-6">GatsbyJs / React - Web App / PWA</p>
                     </div>
                   </div>
 
@@ -68,7 +68,7 @@ const WorkPage = (props) => {
                   <div class="media">
                     <div class="media-content">
                       <p class="title is-4">Haleamano</p>
-                      <p class="subtitle is-6">WordPress - WooCommerce - PWA</p>
+                      <p class="subtitle is-6">WordPress - WooCommerce - Web App / PWA</p>
                     </div>
                   </div>
 
