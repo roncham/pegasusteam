@@ -5,6 +5,8 @@ import Social from '../components/Social';
 import ImageG from '../assets/images/gatsby.png';
 import ImageWP from '../assets/images/wordpress.png';
 import ImageSS from '../assets/images/squarespace.png';
+import ImageD from '../assets/images/druplicon-48.png';
+
 
 export default function Footer() {
   return (
@@ -13,12 +15,23 @@ export default function Footer() {
         <div className="columns">
         {/* Left Widget */}
           <div className="column">
-          <h2 className="has-text-left">Systems We Use</h2>
+            <h2 className="has-text-left">Systems We Use</h2>
           <div className="bump">&nbsp;</div>
-          <div className="has-text-left">
-            <p>&nbsp; <img src={ImageG} alt="GatsbyJs" /> &nbsp; Gatsby JS</p>
-            <p><img src={ImageWP} alt="WordPress" /> WordPress</p>
-            <p>&nbsp; <img src={ImageSS} alt="SquareSpace" /> SquareSpace</p>
+          <div className="columns  is-mobile">
+            <div className="column">
+              <div className="has-text-left">
+                <p>&nbsp; <img src={ImageG} alt="GatsbyJs" /> Gatsby JS</p>
+                <br />
+                <p>&nbsp;<img src={ImageD} alt="GatsbyJs" /> Drupal </p>
+              </div>
+            </div>
+            <div className="column">
+              <div className="has-text-left">
+                <p><img src={ImageWP} alt="WordPress" /> WordPress</p>
+                <br />
+                <p><img src={ImageSS} alt="SquareSpace" /> SquareSpace</p>
+              </div>
+            </div>
           </div>
         </div>
 
