@@ -6,7 +6,7 @@ module.exports = {
   manifestShortName: 'Pegasusteam', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#fff',
-  manifestThemeColor: '#3298dc',
+  manifestThemeColor: '#0060df',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   siteUrl: 'https://pegasusteam.com',

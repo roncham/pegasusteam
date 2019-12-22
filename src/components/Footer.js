@@ -73,7 +73,7 @@ export default function Footer() {
 
         {/* Right Widget */}
           <div id="contact" className="column">
-            <h2 className="has-text-left">Let's Chat</h2>
+            <h2 className="has-text-left">Reach Out</h2>
             <div className="bump">&nbsp;</div>
           <form name="contact" className="form" method="POST" encType="application/x-www-form-urlencoded" netlify-honeypot="bot-field" data-netlify="true">
 
@@ -155,7 +155,7 @@ export default function Footer() {
         </div>
         <div>
         <Social />
-        <Link to="/#top" className="btn button is-info" aria-label="Go to top">^ Top ^</Link>
+        <Link to="#top" className="btn button is-info" aria-label="Go to top">^ Top ^</Link>
         </div>
       </div>
     </footer>
