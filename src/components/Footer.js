@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import Scroll from './Scroll';
 
 import Social from '../components/Social';
 import ImageG from '../assets/images/gatsby.png';
@@ -155,7 +156,14 @@ export default function Footer() {
         </div>
         <div>
         <Social />
-        <Link to="#top" className="btn button is-info" aria-label="Go to top">^ Top ^</Link>
+        <Scroll
+          type="id"
+          element="top">
+            <a className="btn button is-info is-small" href="#top" title="Scroll to top" aria-label="Scroll to top">
+            <i class="fas fa-angle-up"></i>
+            </a>
+          </Scroll>
+
         </div>
       </div>
     </footer>
