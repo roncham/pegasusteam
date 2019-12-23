@@ -125,17 +125,17 @@ const IndexPage = () => (
                       <i className="fas fa-server is-4"></i>
                     </div>
                     <div className="media-content">
-                      <p className="title is-4">JAMstack Websites</p>
+                      <p className="title is-4">Static Websites</p>
                     </div>
                   </div>
                   <div className="content">
                   <p>
-                    With JAMstack your website will be fast and gives you better SEO ranking capabilities. JAM stands for JavaScript, APIs, and Markdown.
+                  With JAMstack your website will be fast and gives you better SEO ranking capabilities. JAM stands for JavaScript, APIs, and Markdown.
                   </p>
                   <p className="text-muted">
                     Your customers will enjoy the speed of the site while you enjoy happy customers and more traffic.
                   </p>
-                  <p><Link to="jamstack-websites" className="btn button is-info btn-xl is-size-6" aria-label="Read more about JamStack websites">Learn More!</Link></p>
+                  <p><Link to="static-websites" className="btn button is-info btn-xl is-size-6" aria-label="Read more about Static websites">Learn More!</Link></p>
                 </div>
               </div>
             </div>
@@ -156,7 +156,7 @@ const IndexPage = () => (
                           Your website will function similar to a desktop or mobile app. Allowing your customers to install your website as an app right on their phone.
                         </p>
                         <p className="text-muted">
-                          Whether you choose a JAMstack site or WordPress site we can make it into a PWA.
+                          Whether you choose a Static website or WordPress site we can make it into a PWA.
                         </p>
                         <p>
                           <Scroll type="id" element="contact">
