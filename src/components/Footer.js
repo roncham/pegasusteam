@@ -62,8 +62,8 @@ export default function Footer() {
                 <li><a className="alist is-size-5" href="/work" aria-label="Go to our work">
                   Work
                 </a></li>
-                <li><a className="alist is-size-5" href="/jamstack-websites" aria-label="Go to jamstack websites">
-                  JamStack Websites
+                <li><a className="alist is-size-5" href="/static-websites" aria-label="Go to static websites">
+                  Static Websites
                 </a></li>
                 <li><a className="alist is-size-5" href="/wordpress-websites" aria-label="Go to wordpress websites">
                   WordPress Websites

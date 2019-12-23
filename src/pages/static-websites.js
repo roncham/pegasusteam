@@ -12,8 +12,8 @@ const JamstackPage = () => {
       <Layout>
         <>
           <Helmet>
-            <title>JAMstack Websites | PegasusTeam</title>
-            <link rel="canonical" href="https://pegasusteam.com/jamstack-websites" />
+            <title>Static Websites | PegasusTeam</title>
+            <link rel="canonical" href="https://pegasusteam.com/static-websites" />
           </Helmet>
         </>
       <Header />
@@ -23,10 +23,10 @@ const JamstackPage = () => {
             <div className="column">
               <div className="container">
                 <div className="section-heading has-text-centered">
-                  <h2>JAMstack Websites</h2>
+                  <h2>Static Websites</h2>
                   <p className="text-muted">
                     Static websites aren't a solution for every business owner.<br />
-                    We'll work with you to decide if a JAMStack website is right for you.
+                    We'll work with you to decide if a Static website is right for you.
                   </p>
                 </div>
               </div>
@@ -39,7 +39,7 @@ const JamstackPage = () => {
           <div className="columns">
             <div className="column">
               <div className=" feature-item text-right">
-                <h2><i class="fas fa-tachometer-alt"></i> JAMstack Is Fast</h2>
+                <h2><i class="fas fa-tachometer-alt"></i> Static Is Fast</h2>
                 <p className="text-muted">
                   Using a static site generator like Gatsby can increase your speed 3% up to 10%. This increase in speed equals far better performance.
                 </p>
@@ -76,7 +76,7 @@ const JamstackPage = () => {
                 Your website will function similar to a desktop or mobile app. Allowing your customers to install your website as an app right on their phone.
                   </p> 
                   <p className="text-muted">
-                  Whether you choose a JAMstack site or WordPress site we can make it into a PWA. prefetching resources for other pages so clicking around the site feels incredibly fast.
+                  Whether you choose a Static site or WordPress site we can make it into a PWA. prefetching resources for other pages so clicking around the site feels incredibly fast.
                 </p>
               </div>
               <div className="feature-item">

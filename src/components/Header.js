@@ -72,8 +72,8 @@ export default class Header extends Component {
                 </a>
         
                 <div className="navbar-dropdown">
-                  <a className="navbar-item" href="/jamstack-websites" aria-label="Go to jamstack websites">
-                    JamStack Websites
+                  <a className="navbar-item" href="/static-websites" aria-label="Go to static websites">
+                    Static Websites
                   </a>
                   <a className="navbar-item" href="/wordpress-websites" aria-label="Go to wordpress websites">
                     WordPress Websites

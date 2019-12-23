@@ -8,7 +8,6 @@ import Scroll from '../components/Scroll';
 import Footer from '../components/Footer';
 
 import demo1 from '../assets/images/phone-screen-1.jpg';
-import flat1 from '../assets/images/flat-screen.png';
 
 const IndexPage = () => (
   <Layout>
