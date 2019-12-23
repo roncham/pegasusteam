@@ -9,9 +9,11 @@
 }
 header.masthead {
   position: relative;
-  background-image: url('../images/pexels-monitors-light.jpg');
-  background-position: center;
-  @include background-cover;
+  //background-image: url('../images/pexels-monitors-light.jpg');
+  //background-position: center;
+  //@include background-cover;
+  background-image: url('../images/pattern-3.gif');
+  background-repeat: repeat;
   
   .header-content {
     position: relative;
@@ -41,11 +43,9 @@ header.masthead {
       &:focus,
       &:active,
       &.active {
-          //color: #000;
-          //border-color: #000;
-          background-color: #0250bb; //rgb(253, 204, 82);
+      background-color: #0250bb; //rgb(253, 204, 82);
       }
-  }
+    }
   }
   @media (min-width: 992px) {
     padding-top: 2rem;
@@ -60,12 +60,13 @@ header.masthead {
   }
 }
 .overlay {
+  //display: none;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: fade-out(black, 0.12);
+  background-color: fade-out(#000, 0.7);
 }
 .navbar {
   padding-left: 30px;

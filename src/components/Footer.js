@@ -23,7 +23,7 @@ export default function Footer() {
               <div className="has-text-left">
                 <p>&nbsp; <img src={ImageG} alt="GatsbyJs" /> Gatsby JS</p>
                 <br />
-                <p>&nbsp;<img src={ImageD} alt="GatsbyJs" /> Drupal </p>
+                {/*<p>&nbsp;<img src={ImageD} alt="GatsbyJs" /> Drupal </p>*/}
               </div>
             </div>
             <div className="column">
@@ -160,7 +160,7 @@ export default function Footer() {
           type="id"
           element="top">
             <a className="btn button is-info is-small" href="#top" title="Scroll to top" aria-label="Scroll to top">
-            <i class="fas fa-angle-up"></i>
+            <i class="fas fa-angle-double-up"></i>
             </a>
           </Scroll>
 

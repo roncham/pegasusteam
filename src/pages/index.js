@@ -8,25 +8,26 @@ import Scroll from '../components/Scroll';
 import Footer from '../components/Footer';
 
 import demo1 from '../assets/images/phone-screen-1.jpg';
+import flat1 from '../assets/images/flat-screen.png';
 
 const IndexPage = () => (
   <Layout>
     <>
       <Helmet>
         <title>PegasusTeam</title>
-        <link rel="canonical" href="https://pegasusteam.com/" />
+        <link rel="canonical" href="https://pegasusteam.com" />
         <meta name="google-site-verification" content="t5x9UI-JDMZO1fbGQZGAOhWjaiYC_oVMob8lJzNL3Ps" />
-        <meta name="description" content="We build websites using the latest technologies like GatsbyJS for building static JAMstack websites and WordPress websites." />
-        <meta name="keywords" content= "gatsby, gatsbyjs, jamstack websites, wordpress websites, web design, pegasusteam" />
+        <meta name="description" content="We build websites using the latest technologies like GatsbyJS for building static JAMstack websites, Drupal and WordPress websites." />
+        <meta name="keywords" content= "gatsby, gatsbyjs, drupal websites, jamstack websites, wordpress websites, web design, pegasusteam" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="PegasusTeam" />
         <meta property="og:description" content="We build websites using the latest technologies like GatsbyJS for building static JAMstack websites and WordPress websites." />
-        <meta property="og:url" content="https://pegasusteam.com/" />
+        <meta property="og:url" content="https://pegasusteam.com" />
         <meta property="og:site_name" content="PegasusTeam" />
         <meta property="og:image" content="https://pegasusteam.com/static/mci-fbook-shared.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:description" content="We build websites using the latest technologies like GatsbyJS for building static JAMstack websites and WordPress websites." />
+        <meta name="twitter:description" content="We build websites using the latest technologies like GatsbyJS for building static JAMstack websites, Drupal and WordPress websites." />
         <meta name="twitter:title" content="PegasusTeam" />
       </Helmet>
     </>
@@ -35,18 +36,15 @@ const IndexPage = () => (
     <header className="masthead hero is-medium">
       <div className="hero-body">
         <div className="container">
-            <div className="column is-8 is-offset-2">
-              <div className="header-content">
-                <h1>
+          <div className="column is-8 is-offset-2">
+            <div className="header-content">
+              <h1>
                 Transform Your Business
-                </h1>
-                <h2>
+              </h1>
+              <h2>
                 We help small to medium sized businesses transform their business by building fast, secure and affordable websites using modern technologies.
-                </h2>
-                {/*<h2 className="is-size-3">
-                  Website Maintenance, Security & Backup
-                </h2>*/}
-                <div className="bump"></div>
+              </h2>
+              <div className="bump"></div>
                 <Link to="/#contact" className="btn btn-outline btn-xl is-size-6">
                   Get A Quote!
                 </Link>
