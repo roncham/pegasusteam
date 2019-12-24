@@ -6,7 +6,7 @@ import Social from '../components/Social';
 import ImageG from '../assets/images/gatsby.png';
 import ImageWP from '../assets/images/wordpress.png';
 import ImageSS from '../assets/images/squarespace.png';
-import ImageD from '../assets/images/druplicon-48.png';
+//import ImageD from '../assets/images/druplicon-48.png';
 
 
 export default function Footer() {
@@ -130,7 +130,7 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Footer Menu */}
+      {/* Footer Bottom Menu */}
       <div className="container">
         <hr />
         <ul className="footer-nav list-inline">
