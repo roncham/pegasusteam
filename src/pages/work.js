@@ -38,7 +38,7 @@ const WorkPage = (props) => {
         <div className="container">
           <div className="columns">
             <div className="column">
-            <div class="card">
+            <div class="card is-fullheight">
               <div class="card-image">
               <Img fluid={props.data.imageOne.childImageSharp.fluid} alt="Marsh Creek Inn" />
               </div>
@@ -60,7 +60,7 @@ const WorkPage = (props) => {
               </div>
             </div>
             <div className="column">
-            <div class="card">
+            <div class="card is-fullheight">
               <div class="card-image">
               <Img fluid={props.data.imageTwo.childImageSharp.fluid} alt="Haleamano" />
               </div>
@@ -84,7 +84,7 @@ const WorkPage = (props) => {
               </div>
             </div>
             <div className="column">
-            <div class="card">
+            <div class="card is-fullheight">
               <div class="card-image">
               <Img fluid={props.data.imageThree.childImageSharp.fluid} alt="Spartan Nutrition" />
               </div>

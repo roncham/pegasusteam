@@ -63,18 +63,21 @@
 }
 
 @mixin heading-font {
-    font-family: 'Roboto', 'Helvetica', 'Arial', 'sans-serif';
+    font-family: '-apple-system', 'system-ui', 'BlinkMacSystemFont', 
+    'Segoe UI','Roboto', 'Helvetica', 'Arial', 'sans-serif';
     font-weight: 500;
     letter-spacing: 1px;
     color: #090909;
 }
 
 @mixin body-font {
-    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+    font-family: '-apple-system', 'system-ui', 'BlinkMacSystemFont', 
+    'Segoe UI','Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
 
 @mixin alt-font {
-    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    font-family: '-apple-system', 'system-ui', 'BlinkMacSystemFont', 
+    'Segoe UI','Lato', 'Helvetica', 'Arial', 'sans-serif';
     letter-spacing: 2px;
     text-transform: uppercase;
 }

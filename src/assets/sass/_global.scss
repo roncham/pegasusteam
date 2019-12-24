@@ -70,14 +70,12 @@ p {
     max-height: 3rem !important;
   }
   
-
-    // Modal show - hide
-  #modal-toggle {
-    display: none;
-  }
-  #modal-toggle:checked ~ #myModal {
-    display: flex;
-  }
+.is-fullheight {
+    height: 100%
+}
+.card-footer {
+    margin-top: auto
+}
 
     // Bulma Overrides
     .button.is-info {

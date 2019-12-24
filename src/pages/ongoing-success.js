@@ -36,7 +36,7 @@ const SuccessPage = () => {
         <div className="container">
           <div className="columns">
             <div className="column">
-              <div className="card">
+              <div className="card is-fullheight">
                 <div className="card-content">
                   <div className="media">
                     <div className="media-left">
@@ -54,7 +54,7 @@ const SuccessPage = () => {
               </div>
             </div>
             <div className="column">
-            <div className="card">
+            <div className="card is-fullheight">
                 <div className="card-content">
                   <div className="media">
                     <div className="media-left">
@@ -72,7 +72,7 @@ const SuccessPage = () => {
               </div>
             </div>
             <div className="column">
-            <div className="card">
+            <div className="card is-fullheight">
                 <div className="card-content">
                   <div className="media">
                     <div className="media-left">
@@ -95,7 +95,7 @@ const SuccessPage = () => {
         <div className="container">
           <div className="columns">
             <div className="column">
-            <div className="card">
+            <div className="card is-fullheight">
                 <div className="card-content">
                   <div className="media">
                     <div className="media-left">
@@ -113,7 +113,7 @@ const SuccessPage = () => {
               </div>
             </div>
             <div className="column">
-            <div className="card">
+            <div className="card is-fullheight">
                 <div className="card-content">
                   <div className="media">
                     <div className="media-left">
@@ -132,7 +132,7 @@ const SuccessPage = () => {
               </div>
             </div>
             <div className="column">
-            <div className="card">
+            <div className="card is-fullheight">
                 <div className="card-content">
                   <div className="media">
                     <div className="media-left">
