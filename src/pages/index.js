@@ -1,15 +1,17 @@
 import React from 'react';
 import { Link } from "gatsby"
 import { Helmet } from 'react-helmet';
+import Img from 'gatsby-image';
+import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
 import Header from '../components/Header';
 import Scroll from '../components/Scroll';
 import Footer from '../components/Footer';
 
-import demo1 from '../assets/images/phone-screen-1.jpg';
+//import demo1 from '../assets/images/phone-screen-1.jpg';
 
-const IndexPage = () => (
+const IndexPage = (props) => (
   <Layout>
     <>
       <Helmet>
@@ -84,7 +86,7 @@ const IndexPage = () => (
               <div className="device-mockup iphone6_plus portrait white">
                 <div className="device">
                   <div className="screen">
-                    <img src={demo1} className="img-fluid" alt="WordPress web design" />
+                  <Img fluid={props.data.imagePh1.childImageSharp.fluid} alt="WordPress web design" />
                   </div>
                 </div>
               </div>
@@ -258,3 +260,24 @@ const IndexPage = () => (
 );
 
 export default IndexPage;
+
+export const fluidImage = graphql`
+fragment fluidImage on File {
+  childImageSharp {
+    fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid
+    }
+  }
+}
+`;
+
+export const pageQuery = graphql`
+  query {
+    imagePh1: file(relativePath: { eq: "phone-screen-1.jpg" }) {
+      ...fluidImage
+    }
+    imageCta: file(relativePath: { eq: "bg-cta.jpg" }) {
+      ...fluidImage
+    }
+  }
+`

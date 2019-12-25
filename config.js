@@ -1,14 +1,15 @@
 module.exports = {
   siteTitle: 'PegasusTeam', // <title>
-  heading: 'PegasusTeam | Custom Web Development',
+  heading: 'PegasusTeam',
   siteLogo: 'src/assets/images/PTlogo-trans.png',
   manifestName: 'PegasusTeam',
-  manifestShortName: 'Pegasusteam', // max 12 characters
+  manifestShortName: 'PegasusTeam', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#fff',
   manifestThemeColor: '#0060df',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
+  manifestCategories: '["business", "design", "technology", "web"]',
   siteUrl: 'https://pegasusteam.com',
   // social
   socialLinks: [
