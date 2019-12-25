@@ -73,6 +73,7 @@ p {
 .is-fullheight {
     height: 100%
 }
+
 .card-footer {
     margin-top: auto
 }
@@ -97,6 +98,26 @@ p {
     }
 
     @media screen and (max-width: 768px)  {
+        h1, h2, h3, h4, h5, h6 {
+            font-family: '-apple-system', 'system-ui', 'BlinkMacSystemFont', 
+            'Segoe UI','Roboto', 'Helvetica', 'Arial', 'sans-serif';
+            font-weight: 500;
+            letter-spacing: 1px;
+            color: #090909;
+        }
+        
+        body {
+            font-family: '-apple-system', 'system-ui', 'BlinkMacSystemFont', 
+            'Segoe UI','Muli', 'Helvetica', 'Arial', 'sans-serif';
+        }
+        
+        alt-font {
+            font-family: '-apple-system', 'system-ui', 'BlinkMacSystemFont', 
+            'Segoe UI','Lato', 'Helvetica', 'Arial', 'sans-serif';
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
         .container {
             margin: 0 auto;
             padding-left: 1rem;

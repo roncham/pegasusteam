@@ -92,7 +92,7 @@ const IndexPage = () => (
           </div>
               
           <div className="column">
-            <div className="card">
+            <div className="card is-halfheight">
               <div className="card-content">
                 <div className="media">
                   <div className="media-left">
@@ -118,7 +118,7 @@ const IndexPage = () => (
 
             <div className="bump">&nbsp;</div>
 
-              <div className="card">
+              <div className="card is-halfheight">
                 <div className="card-content">
                   <div className="media">
                     <div className="media-left">
@@ -142,21 +142,21 @@ const IndexPage = () => (
           </div>
             
             <div className="column">
-              <div className="card">
+              <div className="card is-halfheight">
                 <div className="card-content">
                   <div className="media">
                     <div className="media-left">
                       <i className="fas fa-mobile is-4"></i>
                     </div>
                     <div className="media-content">
-                      <p className="title is-4">Progressive Web App</p>
+                      <p className="title is-4">Progressive Web Apps</p>
 
                       <div className="content">
                         <p>
-                          Your website will function similar to a desktop or mobile app. Allowing your customers to install your website as an app right on their phone.
+                          Your website will function similar to a desktop or mobile app. Allowing your customers to install your website as an app right on their phone or dektop.
                         </p>
                         <p className="text-muted">
-                          Whether you choose a Static website or WordPress site we can make it into a PWA.
+                          Whether you choose a Static website or WordPress site we can turn your website into a PWA.
                         </p>
                         <p>
                           <Scroll type="id" element="contact">
@@ -173,7 +173,7 @@ const IndexPage = () => (
 
               <div className="bump">&nbsp;</div>
 
-              <div className="card">
+              <div className="card is-halfheight">
                 <div className="card-content">
                   <div className="media">
                     <div className="media-left">
