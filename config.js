@@ -7,6 +7,7 @@ module.exports = {
   manifestStartUrl: '/',
   manifestBackgroundColor: '#fff',
   manifestThemeColor: '#0060df',
+  manifestOrientation: 'portrait',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   manifestCategories: '["business", "design", "technology", "web"]',

@@ -9,7 +9,6 @@ import Header from '../components/Header';
 import Scroll from '../components/Scroll';
 import Footer from '../components/Footer';
 
-//import demo1 from '../assets/images/phone-screen-1.jpg';
 
 const IndexPage = (props) => (
   <Layout>
