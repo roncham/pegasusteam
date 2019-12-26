@@ -85,7 +85,7 @@ const IndexPage = (props) => (
               <div className="device-mockup iphone6_plus portrait white">
                 <div className="device">
                   <div className="screen">
-                  <Img fluid={props.data.imagePh1.childImageSharp.fluid} alt="WordPress web design" />
+                    <Img fluid={props.data.imagePh1.childImageSharp.fluid} alt="WordPress web design" />
                   </div>
                 </div>
               </div>
@@ -241,13 +241,35 @@ const IndexPage = (props) => (
             </div>
           </div>
         </div>
+        
+        <div className="bump">&nbsp;</div>
+        <div className="column is-8 is-offset-2">
+          <h2 className="section-heading has-text-centered">Past Clients</h2>
+          <div class="columns is-mobile">
+            <div class="column">
+              <Img fluid={props.data.client1.childImageSharp.fluid} alt="Marsh CReek" />
+            </div>
+            <div class="column">
+              <Img fluid={props.data.client2.childImageSharp.fluid} alt="SR Solace" />
+            </div>
+            <div class="column">
+              <Img fluid={props.data.client3.childImageSharp.fluid} alt="Haleamano" />
+            </div>
+            <div class="column">
+              <Img fluid={props.data.client4.childImageSharp.fluid} alt="EcoBlogs" />
+            </div>
+            <div class="column">
+              <Img fluid={props.data.client5.childImageSharp.fluid} alt="Spartan Sports Nutrition" />
+            </div>
+          </div>
+        </div>
         <div className="column is-6 is-offset-3">
           <div className="bump">&nbsp;</div>
           <div className="has-text-centered">
-            <p>We would love to work with you.</p>
-            <p>We pride ourselves on providing quick accurate support.</p>
+            <p><strong>How can we Transform Your Business?<br />
+              Reach out below.</strong></p>
             <p>
-              We'll Take Care Of Your Website ~ You Take Care Of Your Business
+                We'll Take Care Of Your Website ~ You Take Care Of Your Business
             </p>
           </div>
         </div>
@@ -275,7 +297,19 @@ export const pageQuery = graphql`
     imagePh1: file(relativePath: { eq: "phone-screen-1.jpg" }) {
       ...fluidImage
     }
-    imageCta: file(relativePath: { eq: "bg-cta.jpg" }) {
+    client1: file(relativePath: { eq: "marshcreek_logo.jpg" }) {
+      ...fluidImage
+    }
+    client2: file(relativePath: { eq: "srsolace_logo.jpg" }) {
+      ...fluidImage
+    }
+    client3: file(relativePath: { eq: "haleamano_logo.jpg" }) {
+      ...fluidImage
+    }
+    client4: file(relativePath: { eq: "ecoblogs_logo.jpg" }) {
+      ...fluidImage
+    }
+    client5: file(relativePath: { eq: "spartan_logo.jpg" }) {
       ...fluidImage
     }
   }
