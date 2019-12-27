@@ -59,9 +59,11 @@ const IndexPage = (props) => (
       <div className="container">
         <div className="row">
           <div className="column has-text-centered">
-            <h2 className="section-heading">
-              Building & Maintaining Websites Since 1996
-            </h2>
+            <div className="section-heading has-text-centered">
+              <h2>
+                Building & Maintaining Websites Since 1996
+              </h2>
+            </div>
             <p className="">
             Our passion is listening to clients ideas, thinking through solutions and coming up with creative designs.<br />
             Most Importantly, we keep it simple.
@@ -245,20 +247,20 @@ const IndexPage = (props) => (
         <div className="bump">&nbsp;</div>
         <div className="column is-8 is-offset-2">
           <h2 className="section-heading has-text-centered">Past Clients</h2>
-          <div class="columns is-mobile">
-            <div class="column">
+          <div className="columns is-mobile">
+            <div className="column">
               <Img fluid={props.data.client1.childImageSharp.fluid} alt="Marsh CReek" />
             </div>
-            <div class="column">
+            <div className="column">
               <Img fluid={props.data.client2.childImageSharp.fluid} alt="SR Solace" />
             </div>
-            <div class="column">
+            <div className="column">
               <Img fluid={props.data.client3.childImageSharp.fluid} alt="Haleamano" />
             </div>
-            <div class="column">
+            <div className="column">
               <Img fluid={props.data.client4.childImageSharp.fluid} alt="EcoBlogs" />
             </div>
-            <div class="column">
+            <div className="column">
               <Img fluid={props.data.client5.childImageSharp.fluid} alt="Spartan Sports Nutrition" />
             </div>
           </div>
