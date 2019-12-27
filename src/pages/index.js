@@ -303,13 +303,13 @@ export const pageQuery = graphql`
     client2: file(relativePath: { eq: "srsolace_logo.jpg" }) {
       ...fluidImage
     }
-    client3: file(relativePath: { eq: "haleamano_logo.jpg" }) {
+    client3: file(relativePath: { eq: "haleamano_logo.png" }) {
       ...fluidImage
     }
     client4: file(relativePath: { eq: "ecoblogs_logo.jpg" }) {
       ...fluidImage
     }
-    client5: file(relativePath: { eq: "spartan_logo.jpg" }) {
+    client5: file(relativePath: { eq: "spartan_logo.png" }) {
       ...fluidImage
     }
   }
