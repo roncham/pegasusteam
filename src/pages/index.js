@@ -15,7 +15,7 @@ const IndexPage = (props) => (
     <>
       <SEO />
       <Helmet>
-        <title>PegasusTeam</title>
+        <title>Home</title>
         <link rel="canonical" href="https://pegasusteam.com" />
       </Helmet>
     </>
