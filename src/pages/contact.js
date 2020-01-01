@@ -2,18 +2,21 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 
 import Layout from '../components/Layout';
+import SEO from '../components/SEO';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 const ContactPage = () => {
     return (
       <Layout>
-        <>
-          <Helmet>
-            <title>Contact us | PegasusTeam</title>
-            <link rel="canonical" href="https://pegasusteam.com/contact" />
-          </Helmet>
-        </>
+      <>
+      <SEO />
+      <Helmet>
+        <title>Contact</title>
+        <link rel="canonical" href="https://pegasusteam.com/contact" />
+        
+      </Helmet>
+    </>
       <Header />
       <section className="contact">
         <div className="container">

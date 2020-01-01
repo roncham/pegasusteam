@@ -3,8 +3,14 @@ const config = require('./config');
 module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
-    title: config.siteTitle,
+    //title: config.siteTitle,
     siteUrl: 'https://www.pegasusteam.com',
+    title: 'PegasusTeam', // <title>
+    titleTemplate: '%s · PegasusTeam',
+    description: 'We build websites using the latest technologies like GatsbyJS for building static JAMstack websites and WordPress websites.',
+    url: 'https://pegasusteam.com', // No trailing slash allowed!
+    image: '/images/screenshots.jpg', // Path to your image you placed in the 'static' folder
+    twitterUsername: '@pegasusteam',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -38,7 +44,7 @@ module.exports = {
         sampleRate: 5,
         siteSpeedSampleRate: 10,
         cookieDomain: "pegasusteam.com",
-        //cookieExpires: 0,
+        cookieExpires: 0,
       },
     },
     'gatsby-plugin-sass',

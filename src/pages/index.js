@@ -5,30 +5,18 @@ import Img from 'gatsby-image';
 import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
+import SEO from '../components/SEO';
 import Header from '../components/Header';
 import Scroll from '../components/Scroll';
 import Footer from '../components/Footer';
 
-
 const IndexPage = (props) => (
   <Layout>
     <>
+      <SEO />
       <Helmet>
         <title>PegasusTeam</title>
         <link rel="canonical" href="https://pegasusteam.com" />
-        <meta name="google-site-verification" content="t5x9UI-JDMZO1fbGQZGAOhWjaiYC_oVMob8lJzNL3Ps" />
-        <meta name="description" content="We build websites using the latest technologies like GatsbyJS for building static JAMstack websites, Drupal and WordPress websites." />
-        <meta name="keywords" content= "gatsby, gatsbyjs, drupal websites, jamstack websites, wordpress websites, web design, pegasusteam" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="PegasusTeam" />
-        <meta property="og:description" content="We build websites using the latest technologies like GatsbyJS for building static JAMstack websites and WordPress websites." />
-        <meta property="og:url" content="https://pegasusteam.com" />
-        <meta property="og:site_name" content="PegasusTeam" />
-        <meta property="og:image" content="https://pegasusteam.com/static/mci-fbook-shared.jpg" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:description" content="We build websites using the latest technologies like GatsbyJS for building static JAMstack websites, Drupal and WordPress websites." />
-        <meta name="twitter:title" content="PegasusTeam" />
       </Helmet>
     </>
     <Header />

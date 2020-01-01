@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import { Helmet } from 'react-helmet';
 
 import Layout from '../components/Layout';
+import SEO from '../components/SEO';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Img from 'gatsby-image';
@@ -12,8 +13,9 @@ const WorkPage = (props) => {
     return (
       <Layout>
         <>
+          <SEO />
           <Helmet>
-            <title>Our Work | PegasusTeam</title>
+            <title>Work</title>
             <link rel="canonical" href="https://pegasusteam.com/work" />
           </Helmet>
         </>

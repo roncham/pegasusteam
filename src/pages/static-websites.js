@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import { Helmet } from 'react-helmet';
 
 import Layout from '../components/Layout';
+import SEO from '../components/SEO';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import demo1 from '../assets/images/phone-screen-1.jpg';
@@ -11,8 +12,9 @@ const JamstackPage = () => {
     return (
       <Layout>
         <>
+          <SEO />
           <Helmet>
-            <title>Static Websites | PegasusTeam</title>
+            <title>Static Websites</title>
             <link rel="canonical" href="https://pegasusteam.com/static-websites" />
           </Helmet>
         </>

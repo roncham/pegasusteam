@@ -27,7 +27,7 @@ class Layout extends Component {
               <div className={theme.dark ? 'dark' : 'light'}>
               
               <>
-                <Helmet
+              <Helmet
                   title={data.site.siteMetadata.title}
                   meta={[
                     { name: 'description', content: 'We build websites using the latest technologies like GatsbyJS for building static JAMstack websites and WordPress websites.' },

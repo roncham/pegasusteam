@@ -3,18 +3,21 @@ import { Link } from 'gatsby';
 import { Helmet } from 'react-helmet';
 
 import Layout from '../components/Layout';
+import SEO from '../components/SEO';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 const AboutPage = () => {
   return (
     <Layout>
-      <>
-        <Helmet>
-          <title>About | PegasusTeam</title>
-          <link rel="canonical" href="https://pegasusteam.com/about" />
-        </Helmet>
-      </>
+    <>
+      <SEO />
+      <Helmet>
+        <title>About</title>
+        <link rel="canonical" href="https://pegasusteam.com/about" />
+      </Helmet>
+      
+    </>
       <Header />
 
       <div className="container">

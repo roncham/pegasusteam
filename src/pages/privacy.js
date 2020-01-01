@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 
 import Layout from '../components/Layout';
+import SEO from '../components/SEO';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
@@ -9,8 +10,9 @@ const PrivacyPage = () => {
   return (
     <Layout>
       <>
+        <SEO />
         <Helmet>
-          <title>Privacy Policy | PegasusTeam</title>
+          <title>Privacy</title>
           <link rel="canonical" href="https://pegasusteam.com/privacy" />
         </Helmet>
       </>

@@ -3,6 +3,7 @@ import React from "react";
 import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
+import SEO from '../components/SEO';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
@@ -11,6 +12,13 @@ export default ({ data }) => {
   return (
     <React.Fragment>
     <Layout>
+    <SEO
+      title={post.frontmatter.title}
+      description={post.frontmatter.description || post.excerpt || 'nothin’'}
+      //image={post.frontmatter.image.childImageSharp.sizes.src}
+      pathname={post.frontmatter.slug}
+      article
+    />
       <Header />
       <section className="container">
         <div className="row">
