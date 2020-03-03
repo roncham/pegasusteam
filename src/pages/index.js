@@ -217,7 +217,7 @@ const IndexPage = (props) => (
             <div className="card-content">
               <p className="title is-4">Marie G.</p>
               <p className="subtitle is-6">Gray's Virtual Office</p>
-                <p><em>“Ron bailed me out of an infuriating battle with a poorly designed, and even more poorly supported WordPress theme, and crafted a simple beautiful website for me. As a business owner selling my services online, there’s nothing worse than being ashamed of my website!! He was very easy to work with, he worked fast, and communicated efficiently. I’d work with him again in a heartbeat, and have already recommended him to others in my business circles.”</em>
+                <p><em>"Ron bailed me out of an infuriating battle with a poorly designed, and even more poorly supported WordPress theme, and crafted a simple beautiful website for me. As a business owner selling my services online, there’s nothing worse than being ashamed of my website!! He was very easy to work with, he worked fast, and communicated efficiently. I’d work with him again in a heartbeat, and have already recommended him to others in my business circles."</em>
               </p>
             </div>
           </div>
@@ -226,7 +226,15 @@ const IndexPage = (props) => (
             <div className="card-content">
               <p className="title is-4">Carol B.</p>
               <p className="subtitle is-6">Tonetix</p>
-                <p><em>“Ron, You are an absolute star! Thank you so much. I can honestly say I have never had such amazing service ever! It is so refreshing and such a pleasure to deal with you.”</em>
+                <p><em>"Ron, You are an absolute star! Thank you so much. I can honestly say I have never had such amazing service ever! It is so refreshing and such a pleasure to deal with you."</em>
+              </p>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card-content">
+              <p className="title is-4">Cody H.</p>
+              <p className="subtitle is-6">Snake River Solace CBD</p>
+                <p><em>"We reached out to to Ron and his team. He addressed many things with our website after looking into it. He recommended several things and after he re-adjusted them our site is running Faster. He even was able to work with our Web guy as a team and really dig into the operating side of it. We also had a Web App created by him also which has an impact into our overall sales online and many customers enjoy being able to use it, verses having to go the website. If there was ever an issue or need for anything, I would want Ron and his team to take care of me as he and his company operated fast and effective. Very happy with all."</em>
               </p>
             </div>
           </div>
