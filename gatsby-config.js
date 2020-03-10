@@ -7,10 +7,15 @@ module.exports = {
     siteUrl: 'https://www.pegasusteam.com',
     title: 'PegasusTeam', // <title>
     titleTemplate: '%s · PegasusTeam',
-    description: 'We build websites using the latest technologies like GatsbyJS for building static JAMstack websites and WordPress websites.',
+    description:
+      'We build websites using the latest technologies like GatsbyJS for building static JAMstack websites and WordPress websites.',
     url: 'https://pegasusteam.com', // No trailing slash allowed!
     image: '/images/screenshots.jpg', // Path to your image you placed in the 'static' folder
     twitterUsername: '@pegasusteam',
+    webappcap: 'yes',
+    webappstatus: 'default',
+    mobileopt: 'width',
+    handheldfriendly: 'true',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -31,7 +36,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-4041486-1",
+        trackingId: 'UA-4041486-1',
         // Defines where to place the tracking script - `true` in the head and `false` in the body
         head: true,
         // Setting this parameter is optional
@@ -43,7 +48,7 @@ module.exports = {
         // Any additional optional fields
         sampleRate: 5,
         siteSpeedSampleRate: 10,
-        cookieDomain: "pegasusteam.com",
+        cookieDomain: 'pegasusteam.com',
         cookieExpires: 0,
       },
     },
@@ -65,18 +70,18 @@ module.exports = {
     {
       resolve: 'gatsby-transformer-remark',
       options: {
-          plugins: [
-            'gatsby-remark-prismjs',
-            'gatsby-remark-relative-images',
-            {
-              resolve: 'gatsby-remark-images',
-              options: {
-                maxWidth: 750,
-                linkImagesToOriginal: false,
-              },
+        plugins: [
+          'gatsby-remark-prismjs',
+          'gatsby-remark-relative-images',
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 750,
+              linkImagesToOriginal: false,
             },
-          ]
-      }
+          },
+        ],
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -85,7 +90,7 @@ module.exports = {
         path: `${__dirname}/src/assets/images`,
       },
     },
-    { 
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `posts`,

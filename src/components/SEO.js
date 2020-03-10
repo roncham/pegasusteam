@@ -15,6 +15,10 @@ const SEO = ({ title, description, image, pathname, article }) => (
           siteUrl,
           defaultImage,
           twitterUsername,
+          webappcap,
+          webappstatus,
+          mobileopt,
+          handheldfriendly,
         },
       },
     }) => {
@@ -23,6 +27,10 @@ const SEO = ({ title, description, image, pathname, article }) => (
         description: description || defaultDescription,
         image: `${siteUrl}${image || defaultImage}`,
         url: `${siteUrl}${pathname || '/'}`,
+        webappcap: webappcap || webappcap,
+        webappstatus: webappstatus || webappstatus,
+        mobileopt: mobileopt || mobileopt,
+        handheldfriendly: handheldfriendly || handheldfriendly,
       };
 
       return (
@@ -48,13 +56,24 @@ const SEO = ({ title, description, image, pathname, article }) => (
               <meta name="twitter:description" content={seo.description} />
             )}
             {seo.image && <meta name="twitter:image" content={seo.image} />}
-            <meta name="apple-mobile-web-app-capable" content="yes" />
-            <meta
-              name="apple-mobile-web-app-status-bar-style"
-              content="default"
-            />
-            <meta name="MobileOptimized" content="width" />
-            <meta name="HandheldFriendly" content="true" />
+            {seo.webappcap && (
+              <meta
+                name="apple-mobile-web-app-capable"
+                content={seo.webappcap}
+              />
+            )}
+            {seo.webappstatus && (
+              <meta
+                name="apple-mobile-web-app-status-bar-style"
+                content={seo.webappstatus}
+              />
+            )}
+            {seo.mobileopt && (
+              <meta name="MobileOptimized" content={seo.mobileopt} />
+            )}
+            {seo.handheldfriendly && (
+              <meta name="HandheldFriendly" content={seo.handheldfriendly} />
+            )}
           </Helmet>
         </>
       );
