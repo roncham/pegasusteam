@@ -6,7 +6,7 @@ module.exports = {
   manifestShortName: 'PegasusTeam', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#fff',
-  manifestThemeColor: '#0060df',
+  manifestThemeColor: '#141414',
   manifestOrientation: 'portrait',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
