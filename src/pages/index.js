@@ -166,7 +166,7 @@ const IndexPage = props => (
                       <p>
                         Your website will function similar to a desktop or
                         mobile app. Allowing your customers to install your
-                        website as an app right on their phone or dektop.
+                        website as an app right on their phone or desktop.
                       </p>
                       <p className="text-muted">
                         Whether you choose a Static website or WordPress site we
