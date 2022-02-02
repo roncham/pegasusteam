@@ -10,7 +10,7 @@ module.exports = {
   manifestOrientation: 'portrait',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  manifestCategories: '["business", "design", "technology", "web"]',
+  //manifestCategories: '["business", "design", "technology", "web"]',
   siteUrl: 'https://pegasusteam.com',
   // social
   socialLinks: [
